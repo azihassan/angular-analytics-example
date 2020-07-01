@@ -12,4 +12,7 @@ export class AboutComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  doSomething() {
+    console.log("Doing something")
+  }
 }
